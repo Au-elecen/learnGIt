@@ -5,3 +5,7 @@ update count=2:
 	abrev-commit简化每次提交的唯一标识符
 	graph以图的形式表示出来
 	decorate git版本过低时要打开，新版git默认开启(主要针对Mac)
+update count=3:
+	查看文件的命令
+	ls 查看工作区的文件
+	git ls-files 查看暂存区的文件
