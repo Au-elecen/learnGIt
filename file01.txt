@@ -9,3 +9,8 @@ update count=3:
 	查看文件的命令
 	ls 查看工作区的文件
 	git ls-files 查看暂存区的文件
+update count=4:
+	git diff相关
+	git diff 默认查看工作区和暂存区的不同
+	git diff HEAD 比较工作区和版本库的不同
+	git diff --cached 比较暂存区和版本库之间的不同
