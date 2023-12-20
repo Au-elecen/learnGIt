@@ -14,3 +14,8 @@ update count=4:
 	git diff 默认查看工作区和暂存区的不同
 	git diff HEAD 比较工作区和版本库的不同
 	git diff --cached 比较暂存区和版本库之间的不同
+	git diff commitID commitID 比较两个版本之间的不同
+	git diff commitID HEAD 比较某个版本和最新版本之间的不同
+	git diff HEAD~n HEAD
+	git diff HEAD^n HEAD 比较前n个版本和最新版本的不同 ~ ^两个都可
+	git diff branch_name branch_name 比较两个分支之间的差异
