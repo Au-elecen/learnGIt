@@ -19,3 +19,9 @@ update count=4:
 	git diff HEAD~n HEAD
 	git diff HEAD^n HEAD 比较前n个版本和最新版本的不同 ~ ^两个都可
 	git diff branch_name branch_name 比较两个分支之间的差异
+update count=5
+	删除文件
+	git rm filename 把文件从工作区和暂存区同时删除
+	git rm --cached filename 把文件从暂存区删除,但保留工作区中的文件
+	git rm -r * 递归删除某个目录下的所有子目录和文件
+	删除之后要提交
